@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','django-insecure-1i^k*woqn1-#+^-
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['lit-tundra-68931.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
